@@ -493,8 +493,12 @@ form textarea {
   font-size: 16px;
   background-color: orange;
   color: white;
-  /* width: 160px; */
+  width: 100%;
   transition: all 0.45s ease;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .contact-form .submit:hover {
@@ -819,6 +823,9 @@ img {
 }
 .file-upload_2 {
   text-align: center;
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 0.45s ease-out;
 }
 
 .Cars_sponser {
@@ -837,6 +844,9 @@ img {
   }
   .dropdown_menu {
     display: block;
+  }
+  .footer {
+    height: 180px;
   }
   table,
   .usedtitle {
@@ -870,7 +880,7 @@ img {
     font-size: 40px;
   }
   .footer {
-    height: 240px;
+    height: 200px;
   }
   table,
   .usedtitle {
